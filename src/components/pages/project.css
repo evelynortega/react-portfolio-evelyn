@@ -1,0 +1,12 @@
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(230, 180, 224);
+  margin: 15px;
+}

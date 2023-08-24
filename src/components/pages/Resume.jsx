@@ -1,13 +1,12 @@
-import { Link } from "react-router-dom";
-// how do i link this pag to "resume" in navbar?
-// how to download resume
+import Header from "../Header";
+
 function Resume() {
   return (
     <div>
-      <h2>LINK TO MY RESUME</h2>
-      <Link to="https://docs.google.com/document/d/1Ce6u87aJj4cTT-tspWZIH_GHheKLyhfSTHdnuG3N2cs/edit?usp=sharing">
-        Click here to view!
-      </Link>
+      <Header title="Resume" bgcolor="red" />
+      <a href="/Resume.pdf" target="_blank">
+        Click here to download!
+      </a>
     </div>
   );
 }
